@@ -1,4 +1,4 @@
-package com.jiawei.arithmetic.stack;
+package com.jiawei.arithmetic.stack.day01;
 
 import java.util.Stack;
 
