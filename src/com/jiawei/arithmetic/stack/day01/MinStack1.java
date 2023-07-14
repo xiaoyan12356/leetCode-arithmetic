@@ -46,4 +46,10 @@ public class MinStack1 {
     public int getMin() {
         return minStack.peek();
     }
+
+    /**
+     * 解题思路： 借助辅助栈获取最小值，其实就push的时候正常push到stack中，如果minstack中没有元素
+     * 也push进入，但如果已经有元素，要将minStack peek出一个值与将要push值进行比较，如果小于peek值，就可以push，
+     * 如果不是，再push一次minStack peek的值。
+     */
 }

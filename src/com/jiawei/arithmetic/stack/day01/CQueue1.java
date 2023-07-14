@@ -39,4 +39,8 @@ public class CQueue1 {
 
     }
 
+    /**
+     * 解题思路： 其实逻辑和CQueue是一致的，只是换了存储的结构。正常push，在delete的时候，将a 中的所有元素push
+     * 到b中，然后弹出b的栈顶元素
+     */
 }

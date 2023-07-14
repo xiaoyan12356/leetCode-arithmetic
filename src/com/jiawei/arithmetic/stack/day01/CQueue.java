@@ -50,4 +50,8 @@ public class CQueue {
         }
     }
 
+    /**
+     * 解题思路： 利用辅助栈，当stack栈push入一个元素，执行一次从stack 依次push到tmpStack中的操作
+     * 但前提是得保证tmp中为空，pop操作时，直接从tmp栈中获取
+     */
 }

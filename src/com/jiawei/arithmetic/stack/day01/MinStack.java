@@ -42,4 +42,9 @@ public class MinStack {
     public int getMin() {
         return min;
     }
+
+    /**
+     * 解题思路： 单个栈完成排序功能，定义最小值，push操作时，先push最小值，然后比较传入的值和现存最小值大小
+     * 再push入传入的值，pop操作就先pop，再获取最小值，其实就再pop一次
+     */
 }
